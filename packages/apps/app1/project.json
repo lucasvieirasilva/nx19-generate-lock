@@ -14,6 +14,7 @@
         "tsConfig": "packages/apps/app1/tsconfig.lib.json",
         "assets": [],
         "generatePackageJson": true,
+        "thirdParty": true,
         "format": ["cjs"]
       }
     }
