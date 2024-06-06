@@ -1,0 +1,21 @@
+{
+  "name": "app2",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/apps/app2/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/apps/app2",
+        "main": "packages/apps/app2/src/index.ts",
+        "tsConfig": "packages/apps/app2/tsconfig.lib.json",
+        "assets": [],
+        "generatePackageJson": true,
+        "format": ["cjs"]
+      }
+    }
+  }
+}

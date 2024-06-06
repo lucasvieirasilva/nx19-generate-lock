@@ -4,10 +4,27 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
+    "@nx/esbuild": "19.2.0",
+    "@nx/eslint": "19.2.0",
+    "@nx/eslint-plugin": "19.2.0",
     "@nx/js": "19.2.0",
     "@nx/workspace": "19.2.0",
-    "nx": "19.2.0"
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/lodash": "^4.17.4",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "esbuild": "^0.19.2",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nx": "19.2.0",
+    "prettier": "^2.6.2",
+    "typescript": "~5.4.2"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "@example/app1",
+  "version": "0.0.1",
+  "dependencies": {
+    "@example/lib1": "0.0.1"
+  },
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "private": true
+}
